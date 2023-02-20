@@ -79,3 +79,7 @@ end
 if isfolder("AtomClient") == false then
 	makefolder("AtomClient")
 end
+if isfolder("AtomClient/GameAssets") == false then
+	makefolder("AtomClient/GameAssets")
+end
+downloadassets("AtomClient/GameAssets")
