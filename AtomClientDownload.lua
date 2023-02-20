@@ -85,9 +85,7 @@ end
 if isfolder("AtomClient/Main") == false then
 	makefolder("AtomClient/Main")
 end
-if isfile("AtomClient/Main/test") == false then
-	makefile("AtomClient/Main/test")
-end
+
 downloadassets("AtomClient/GameAssets")
 downloadassets("AtomClient/Main")
-downloadassets("AtomClient/Main/test")
+
