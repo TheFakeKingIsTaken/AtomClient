@@ -1,0 +1,1 @@
+[Smx Supported]
