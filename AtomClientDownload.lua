@@ -82,11 +82,10 @@ end
 if isfolder("AtomClient/GameAssets") == false then
 	makefolder("AtomClient/GameAssets")
 end
+downloadassets("AtomClient/GameAssets")
 if isfolder("AtomClient/Main") == false then
 	makefolder("AtomClient/Main")
 end
-
-downloadassets("AtomClient/GameAssets")
 downloadassets("AtomClient/Main")
 
 game.StarterGui:SetCore("SendNotification", {
