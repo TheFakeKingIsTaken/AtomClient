@@ -79,14 +79,15 @@ end
 if isfolder("AtomClient") == false then
 	makefolder("AtomClient")
 end
-if isfolder("AtomClient/GameAssets") == false then
-	makefolder("AtomClient/GameAssets")
-end
-downloadassets("AtomClient/GameAssets")
+downloadassets("AtomClient")
 if isfolder("AtomClient/Main") == false then
 	makefolder("AtomClient/Main")
 end
 downloadassets("AtomClient/Main")
+if isfolder("AtomClient/GameAssets") == false then
+	makefolder("AtomClient/GameAssets")
+end
+downloadassets("AtomClient/GameAssets")
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Credits";
