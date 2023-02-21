@@ -89,3 +89,8 @@ end
 downloadassets("AtomClient/GameAssets")
 downloadassets("AtomClient/Main")
 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Credits";
+    Text = "Thanks SmokeXDev For Helped A Lot With The Script"; 
+    Duration = 20;
+})
