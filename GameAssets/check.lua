@@ -1,1 +1,0 @@
-[Smx Supported & Vxpe]
